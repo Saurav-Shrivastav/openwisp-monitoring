@@ -195,6 +195,8 @@ if TESTING:
 # Temporarily added to identify slow tests
 TEST_RUNNER = 'openwisp_utils.tests.TimeLoggingTestRunner'
 
+LEAFLET_CONFIG = {'RESET_VIEW': False}
+
 LOGGING = {
     'version': 1,
     'filters': {'require_debug_true': {'()': 'django.utils.log.RequireDebugTrue'}},

@@ -531,3 +531,9 @@ class TestDeviceApi(DeviceMonitoringTestCase):
             number += 1
             with self.subTest(interface_data['name']):
                 self.assertEqual(r.status_code, 400)
+
+    def test_geojson_api(self):
+        pass
+        # device = self._create_device(organization=self._create_org())
+        # TODO ...
+        # Location()
